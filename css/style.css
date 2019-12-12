@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+}
+
+*{
+	box-sizing: border-box;
+	}
+
+	.srvItem{
+	margin-top: 100px;
+}
+
+.srvItem h3{
+	font-size: 18px;
+}
+
+.srvItem p{
+	margin-top:18px;
+	color: #7c7c7c;
+}
+.srvItem__text{
+	margin-top: -45px;
+}
+
+#great_resourse{
+	padding-top: 160px;
+	padding-bottom:150px;
+}
+
+@media (max-width: 992px) {
+
+.srvItem {
+		margin-top: 80px;
+	}
+
+}
+
+@media (max-width: 768px) {
+	.srvItem__text{
+		margin-left: 55px;
+	}
+
+	.srvItem__text p{
+		margin-top: 12px;
+	}
+
+	#ourSevices .row{
+		justify-content: center;
+	}
+
+	#ourSevices .row h3{
+		margin-top: 10px;
+	}
+
+	#ourSevices .row p{
+		margin-top: -10px;
+	}
+
+}
